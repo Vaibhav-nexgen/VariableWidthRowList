@@ -22,13 +22,13 @@ Sub loadContent()
                 item.TITLE = "Item " + j.ToStr()
                 item.addField("FHDItemWidth", "float", false)
                 if i=1
-                    item.HDPOSTERURL = "pkg:/images/hero.png"
+                    item.HDPOSTERURL = "pkg:/images/1.jpeg"
                     item.FHDItemWidth = "1220"
                 else if (j mod 3) = 0
-                    item.HDPOSTERURL = "pkg:/images/tv.png"
+                    item.HDPOSTERURL = "pkg:/images/2.jpeg"
                     item.FHDItemWidth = "351"
                 else
-                    item.HDPOSTERURL = "pkg:/images/movie.png"
+                    item.HDPOSTERURL = "pkg:/images/3.jpeg"
                     item.FHDItemWidth = "156"
                 end if
             Next
