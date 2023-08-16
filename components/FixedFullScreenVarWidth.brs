@@ -9,7 +9,7 @@ Function init()
         rowContent = content.CreateChild("ContentNode")
         rowContent.TITLE = "Row " + i.ToStr()
         content.AppendChild(rowContent)
-    Next
+    End For
     m.RowList.observeField("content", "rowListContentChanged")
     m.RowList.content = content
 

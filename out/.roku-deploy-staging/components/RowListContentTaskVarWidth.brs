@@ -32,7 +32,7 @@ Sub loadContent()
                     item.FHDItemWidth = "156"
                 end if
             Next
-            m.top.content.replaceChild(row, i-1)
+            ' m.top.content.replaceChild(row, i-1)
         Next
     End If
 End Sub
