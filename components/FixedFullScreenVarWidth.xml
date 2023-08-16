@@ -13,7 +13,7 @@
         rowItemSize="[[1220,591],[351,234]]"
 	      rowHeights="[648,300]"
         rowItemSpacing="[[54,0],[18,0]]"
-        focusXOffset="[350,47]"
+        focusXOffset="[0,0]"
         rowLabelOffset="[[47,8]]"
         showRowLabel="[true]"
         showRowCounter="[true]"
